@@ -1,0 +1,10 @@
+streamlit
+transformers
+torch
+python-docx
+pytesseract
+Pillow
+PyMuPDF
+pdf2image
+sentencepiece
+rouge-score
