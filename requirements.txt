@@ -1,26 +1,20 @@
 # Core UI
 streamlit>=1.29.0,<2.0
 
-
-# NLP + summarization (transformers optional — fallback implemented)
+# NLP + summarization
 transformers==4.33.2
-tokenizers==0.13.3
-safetensors>=0.3.1
-
 
 # Document handling
 PyPDF2==3.0.1
 python-docx==0.8.11
 pytesseract==0.3.10
-reportlab==3.6.12
 Pillow==11.0.0
-
+reportlab==3.5.68  # older version for prebuilt wheel
 
 # Data + helpers
 numpy>=1.21.0
 pandas>=2.3.3
-regex>=2025.7.18
+regex>=2023.1.1
 
-
-# spaCy (optional for advanced NLP) — included for compatibility
+# spaCy
 spacy==3.7.5
