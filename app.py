@@ -11,10 +11,6 @@ from reportlab.pdfgen import canvas
 from reportlab.lib.units import inch
 
 # -------------------------
-import streamlit as st
-from transformers import pipeline
-import spacy
-
 @st.cache_resource(show_spinner=False)
 def load_models():
     summarizer = pipeline("summarization")
@@ -28,7 +24,6 @@ def load_models():
 
     return summarizer, nlp
 
-summarizer, nlp = load_models()
 
 
 # -------------------------
