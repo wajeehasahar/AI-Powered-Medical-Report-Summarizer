@@ -1,3 +1,4 @@
+pip>=25.2
 streamlit>=1.29.0,<2.0
 transformers>=4.41.0
 spacy==3.7.4
@@ -9,5 +10,5 @@ numpy==1.26.4
 pandas>=2.3.3
 regex>=2023.12.25
 pillow==11.0.0
-blis==0.7.11
+blis==0.7.10
 

@@ -1,6 +1,7 @@
-build-essential
-python3-dev
 libfreetype6-dev
 libjpeg-dev
-zlib1g-dev
 tesseract-ocr
+build-essential
+python3-dev
+libopenblas-dev
+
