@@ -15,10 +15,19 @@ from reportlab.lib.units import inch
 # -------------------------
 @st.cache_resource(show_spinner=False)
 def load_models():
-    # summarizer: will auto-download default if needed
+    from spacy.cli import download
+
+    # Try loading spaCy model; download if missing
+    try:
+        nlp = spacy.load("en_core_web_sm")
+    except OSError:
+        download("en_core_web_sm")
+        nlp = spacy.load("en_core_web_sm")
+
+    # Summarizer from transformers
     summarizer = pipeline("summarization")
-    nlp = spacy.load("en_core_web_sm")
     return summarizer, nlp
+
 
 summarizer, nlp = load_models()
 
