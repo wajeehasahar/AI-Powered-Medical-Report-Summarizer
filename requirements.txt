@@ -1,6 +1,6 @@
 streamlit>=1.29.0,<2.0
 transformers==4.33.2
-spacy==3.7.5
+spacy==3.7.2
 https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1.tar.gz
 PyPDF2==3.0.1
 reportlab==3.6.12
