@@ -1,20 +1,13 @@
-# --- Core Framework ---
 streamlit>=1.29.0,<2.0
-
-# --- NLP & AI ---
-transformers>=4.43.1
-spacy>=3.7.4
-en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1.tar.gz
-torch
-sentencepiece
-
-# --- PDF & OCR ---
+transformers>=4.41.0
+spacy==3.7.4
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1.tar.gz
 PyPDF2==3.0.1
 reportlab>=3.6.13
 pytesseract==0.3.10
-
-# --- Data & Utilities ---
-numpy>=2.1.2,<2.2
+numpy==1.26.4
 pandas>=2.3.3
 regex>=2023.12.25
 pillow==11.0.0
+blis==0.7.11
+

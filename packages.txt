@@ -1,5 +1,7 @@
+# System dependencies for Python scientific and OCR packages
+build-essential
+python3-dev
 libfreetype6-dev
 libjpeg-dev
-libpng-dev
+zlib1g-dev
 tesseract-ocr
-
