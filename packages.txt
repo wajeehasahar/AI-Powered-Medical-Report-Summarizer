@@ -1,3 +1,6 @@
 tesseract-ocr
-libjpeg-dev
-libfreetype6-dev
+libtesseract-dev
+poppler-utils
+
+
+
