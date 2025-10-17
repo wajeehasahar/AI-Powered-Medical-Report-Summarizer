@@ -3,7 +3,8 @@ libjpeg-dev
 tesseract-ocr
 build-essential
 python3-dev
-
+gcc
+g++
 
 
 
