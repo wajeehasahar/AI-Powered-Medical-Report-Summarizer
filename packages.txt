@@ -1,6 +1,9 @@
+libfreetype6-dev
+libjpeg-dev
 tesseract-ocr
-libtesseract-dev
-poppler-utils
+build-essential
+python3-dev
+
 
 
 
